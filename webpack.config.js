@@ -33,7 +33,7 @@ module.exports = {
           {
             loader: "file-loader",
             options: {
-              name: "angle-arrow-down.png",
+              filename: "angle-arrow-down.png",
               esModule: false,
               context: __dirname + "./",
             },
