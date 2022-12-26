@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 // import styled from "styled-components";
 // import PropTypes from "prop-types";
-import arrowDown from "./angle-arrow-down.png";
 
 const SelectItem = ({ ...props }) => {
   const [option, setOption] = useState("");
