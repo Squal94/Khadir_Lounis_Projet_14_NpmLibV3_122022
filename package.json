@@ -1,0 +1,30 @@
+{
+  "name": "@squal94/select-lounisk",
+  "version": "1.0.0",
+  "description": "creation d'une library avec un composant react select",
+  "main": "src/index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Squal94/Khadir_Lounis_Projet_14_NpmLibV3_122022.git"
+  },
+  "author": "Khadir L",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Squal94/Khadir_Lounis_Projet_14_NpmLibV3_122022/issues"
+  },
+  "homepage": "https://github.com/Squal94/Khadir_Lounis_Projet_14_NpmLibV3_122022#readme",
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "styled-components": "^5.3.6"
+  }
+}
