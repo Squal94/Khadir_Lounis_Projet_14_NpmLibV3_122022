@@ -30,7 +30,7 @@ const SelectItem = ({ ...props }) => {
         </p>
         <img
           className="selectItem__field--img"
-          src={arrowDown}
+          src={props}
           alt="Fleche ouverture du select"
         />
       </div>
