@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import arrow from "./angle-arrow-down.png";
 // import styled from "styled-components";
 // import PropTypes from "prop-types";
 
@@ -30,7 +31,7 @@ const SelectItem = ({ ...props }) => {
         </p>
         <img
           className="selectItem__field--img"
-          src={props}
+          src={arrow}
           alt="Fleche ouverture du select"
         />
       </div>

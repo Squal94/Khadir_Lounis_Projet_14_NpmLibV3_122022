@@ -27,7 +27,21 @@ module.exports = {
           },
         },
       },
+      {
+        test: /\.(svg|png|jpg|gif)$/,
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              name: "angle-arrow-down.png",
+              esModule: false,
+              context: __dirname + "./",
+            },
+          },
+        ],
+      },
     ],
   },
+
   plugins: [new CleanWebpackPlugin()],
 };
