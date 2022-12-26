@@ -2,7 +2,9 @@
   "name": "@squal94/select-lounisk",
   "version": "1.0.0",
   "description": "creation d'une library avec un composant react select",
-  "main": "src/index.jsx",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "source": "src/index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
